@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API to manage people in mongodb atlas and serve a react app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Sillas Bernardo",
+  "license": "MIT",
+  "dependencies": {
+    "convertapi": "^1.11.2",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.21",
+    "xlsx": "^0.18.5",
+    "xlsx-to-csv": "^1.0.1"
+  }
+}
